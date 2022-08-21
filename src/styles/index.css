@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-hue: 210;
+  --gray-hue: 240;
+  --color-primary: hsl(var(--primary-hue), 100%, 50%);
+  --color-primary-variant: hsl(var(--color-primary), 100%, 65%);
+  --color-secondary: #ffb116;
+  --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
+  --color-gray-200: hsl(var(--gray-hue), 26%, 75%);
+  --color-gray-300: hsl(var(--gray-hue), 24%, 64%);
+  --color-gray-400: hsl(var(--gray-hue), 16%, 41%);
+  --color-gray-500: hsl(var(--gray-hue), 44%, 25%);
+  --color-gray-600: hsl(var(--gray-hue), 48%, 15%);
+
+  --container-width-lg: 80%;
+  --container-width-md: 90%;
+
+  --transition: all 500ms ease;
+  --fw400: 400;
+  --fw300: 300;
+}
+
+
+
+.d-grid {
+  display: grid;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.jsutify-content-center {
+  justify-content: center;
+}
+
+.justify-content-betwen {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-fx-start {
+  align-items: flex-start;
+}
+
+.place-items-center {
+  place-items: center;
+}
+
+
+body {
+  font-family: "Montserrat";
+  color: var(--color-gray-200);
+  line-height: 1.7;
+  overflow-x: hidden;
+  background-color: var(--color-gray-600)
+}
+
+.container {
+  width: var(--container-width-lg);
+  max-width: 1920px;
+  margin-inline: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2;
+  color: var(--color-gray-100);
+}
+
+h1 {
+  font-size: 3rem
+}
+
+h2 {
+  font-size: 2rem
+}
+
+a {
+  color: var(--color-gray-100)
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+
+
+
+.btn {
+  color: var(--color-gray-100);
+  width: fit-content;
+  margin: 0 auto;
+  padding: .9rem 2rem;
+  background-color: var(--color-primary);
+  border-radius: 1.5rem;
+  transition: var(--transition)
+}
+
+.btn:hover {
+  background: var(--color-secondary);
+  color: var(--color-gray-600)
+}
+
+.btn.lg {
+  padding: 1.2rem 3rem;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+}
+
+.btn.sm {
+  padding: 0.4rem 1.2rem;
+  font-size: .9rem;
+}
+
+.btn.sm:hover {
+  background-color: var(--color-gray-100);
+}
+
+
+
+
+/* NAV BAR STYLES
+=========================================================================================*/
+@import url("./navbar.css");
+
+/* ABOUT STYLES
+=========================================================================================*/
+@import url("./about.css");
+
+/* CONTACT STYLES
+==========================================================================================*/
+@import url("./contact.css");
+
+/* GALLERY STYLES
+============================================================================================*/
+@import url("./gallery.css");
+
+/* HOME STYLES
+==============================================================================================*/
+@import url("./home.css");
+
+/* NOT FOUND STYLES */
+@import url("./not-found.css");
+
+/* PLANS STYLES */
+@import url("./plans.css");
+
+/* TRAINERS STYLES */
+@import url("./trainers.css");
+
+/* CARD STYLES
+================================================================================================*/
+@import url("./card.css");
+
+
+/* PROGRAMS======================================================================================*/
+@import url("./programs.css");
+
+/* VALUES
+==================================================================================================*/
+@import url("./values.css");
+
+/* FAQS STYLES
+===================================================================================================*/
+@import url("./FAQ.css");
+
+
+/* TESTIMONIALS STYLES
+=====================================================================================================*/
+@import url("./testimonials.css");
+
+/* FOOTER STYLES
+======================================================================================================*/
+@import url("./footer.css");
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2.2rem;
+    line-height: 1.3;
+  }
+}
