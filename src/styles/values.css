@@ -38,4 +38,24 @@
         justify-content: center;
         gap: 4rem;
     }
+
+    .values__wrapper {
+        gap: 4rem 3rem;
+    }
+
+    .values__img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .values__wrapper {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .card.values__value {
+        width: 84%;
+        margin-inline: auto;
+    }
 }

@@ -20,3 +20,16 @@
 .faq p {
     margin-top: 1.5rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .faqs__wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .faqs__wrapper {
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+}

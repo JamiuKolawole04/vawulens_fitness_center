@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import { Navbar } from "./components";
+import { Footer, Navbar } from "./components";
 import {
   About,
   Contact,
@@ -24,6 +24,8 @@ const App = () => {
           <Route path="/trainers" element={<Trainers />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+
+        <Footer />
 
       </BrowserRouter>
 

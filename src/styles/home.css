@@ -37,15 +37,13 @@
     border-radius: 50%;
     position: absolute;
     transition: var(--transition);
+    filter: blur(15px);
 }
 
 .main__header-image {
     position: relative;
 }
 
-.main__header-right:hover .main__header-circle {
-    filter: blur(15px);
-}
 
 section {
     margin-top: 10rem;
@@ -76,5 +74,22 @@ section {
     .main__header-circle {
         width: 16rem;
         height: 16rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main__header {
+        margin-top: 0;
+        padding: 12rem 0 0;
+        height: 100vh;
+    }
+
+    .main__header-image,
+    .main__header-circle {
+        display: none;
+    }
+
+    .main__header-container {
+        grid-template-columns: 1fr;
     }
 }

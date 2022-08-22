@@ -2,7 +2,6 @@ import { Fragment } from "react";
 
 import {
     FAQs,
-    Footer,
     MainHeader,
     Programs,
     Testimonials,
@@ -18,7 +17,6 @@ export const Home = () => {
             <Values />
             <FAQs />
             <Testimonials />
-            <Footer />
         </Fragment>
 
     );

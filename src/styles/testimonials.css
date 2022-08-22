@@ -58,3 +58,15 @@
     width: 3rem;
     height: 3rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .testimonials {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .testimonials {
+        width: 100%;
+    }
+}

@@ -8,4 +8,6 @@ export { FAQs } from "./FAQs";
 export { FAQ } from "./FAQ";
 export { Testimonials } from "./Testimonials";
 export { Footer } from "./Footer";
+export { Header } from "./Header";
+export { Trainer } from "./Trainer";
 
