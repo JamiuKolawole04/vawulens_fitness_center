@@ -16,9 +16,7 @@ export const Gallery = () => {
 
     return (
         <Fragment>
-            <Header title="Our Gallery" image={headerImg}>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti cum, perferendis amet dicta in modi.
-            </Header>
+            <Header title="Our Gallery" image={headerImg}></Header>
 
             <section className="gallery">
                 <div className="container gallery__container d-grid">

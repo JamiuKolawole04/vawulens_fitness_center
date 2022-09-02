@@ -10,7 +10,7 @@ export const Contact = () => {
     return (
         <Fragment>
             <Header title="Get In Touch" image={headerImg}>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur obcaecati reiciendis esse fugit maiores laboriosam?
+                Contact us and let's discuss more about your fitness goals.
             </Header>
 
             <section className="contact">

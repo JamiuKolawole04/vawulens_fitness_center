@@ -9,7 +9,7 @@ export const MainHeader = () => {
                 <div className="main__header-left">
                     <h4>#100DaysofWorkout</h4>
                     <h1>Join The Legends of the Fitness World</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi numquam inventore, sint magnam laboriosam aspernatur.</p>
+                    <p>Join the fitness world to accomplish any goal, from improved health to weight loss to better performance.From general fitness to sport-specific training, there is no better program out there.</p>
 
                     <Link to="/plans" className="btn lg">Get started</Link>
                 </div>

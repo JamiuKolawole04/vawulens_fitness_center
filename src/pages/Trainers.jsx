@@ -12,7 +12,7 @@ export const Trainers = () => {
     return (
         <Fragment>
             <Header title="Our Trainers" image={headerImg}>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequatur, in asperiores animi possimus corrupti.
+                Meet and connect with our great trainers
             </Header>
 
             <section className="trainers">

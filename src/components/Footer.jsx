@@ -15,7 +15,7 @@ export const Footer = () => {
                         <img src={Logo} alt="footer logo" className="logo" />
                     </Link>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi magnam quo dolores quas ut distinctio aperiam amet obcaecati aspernatur pariatur.</p>
+                    <p>Great workout sessions, facilities and coaches.</p>
                     <div className="footer__socials d-flex align-items-center">
                         <a href="https://linkedin.com" target="_blank" rel="noreferrer"><FaLinkedin /></a>
                         <a href="https://facebook.com" target="_blank" rel="noreferrer"><FaFacebookF /></a>

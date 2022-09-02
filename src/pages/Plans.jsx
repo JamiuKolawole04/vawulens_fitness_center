@@ -9,7 +9,7 @@ export const Plans = () => {
     return (
         <Fragment>
             <Header title="Membership Plans" image={headerImg}>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda molestiae aspernatur amet aperiam rem cumque?
+                Explore our affordable plans to choose the best for yourself
             </Header>
 
             <section className="plans">

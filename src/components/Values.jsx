@@ -18,7 +18,7 @@ export const Values = () => {
                 <div className="values__right">
                     <SectionHead icon={<GiCutDiamond />} title="Values" />
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repellendus quidem nisi. Perferendis dolore obcaecati optio alias rerum totam reiciendis ea suscipit, eligendi voluptatum minima corrupti enim, odio cumque quo.</p>
+                    <p> We provide quality workouts and result oriented programs. You have fun  and great feeling of being inclusive .</p>
 
                     <div className="values__wrapper d-grid">
                         {
